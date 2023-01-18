@@ -8,8 +8,8 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   margin: 0;
-  color: whitesmoke!important;
-  background-color: #181818!important;
+  color: whitesmoke;
+  font-size: 1.5vw;
 }
 
 a {
@@ -41,12 +41,53 @@ a {
   margin-bottom: 30px;
 }
 
-.navbar {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 2vw;
+.home_navbar {
+  margin: auto;
+  align-items: flex-end;
+  height: 13vh;
+  width: 80%;
+  font-size: 1.8vw;
+
 }
 
+.home_logo {
+  width: 42vh;
+  margin: 5vw;
+}
+
+.main {
+  height: 100vh;
+}
+
+.home_started_button {
+  height: 20vh;
+}
+
+.home_container {
+  height: 100%;
+}
+
+.btn-outline-blender {
+  background-color: transparent;
+min-width: 20vw;
+padding:1vw ;
+  border-color: #f9a65c;
+  border-radius: 25px;
+  letter-spacing: 0.05em;
+}
+
+.btn-outline-blender:hover {
+  background-color: black;
+  border-color: #fa851f;
+}
+
+.home_discussion img{
+width: 3vw;
+margin: 2.5vw;
+}
+/* .home_discussion {
+width: 50%;
+} */
 
 @media (prefers-color-scheme: dark) {
   html {
